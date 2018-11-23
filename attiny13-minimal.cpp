@@ -62,7 +62,6 @@ void uart_send_byte (unsigned char data)
 void setup()
 {
     uart_tx_init (); 
-    pinMode(PB1,OUTPUT);
 }
 
 void loop()
