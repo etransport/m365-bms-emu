@@ -7,7 +7,7 @@
 #define F_CPU 9600000 
 /*
 9.6 mHz internal RC-oscillator is used. This stuff is extremely unstable and not to be recommended/
-/*
+*/
 
 #include <avr/io.h>
 #include <util/delay.h>
