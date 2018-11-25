@@ -67,7 +67,7 @@ void setup()
 void loop()
 {
     for(byte char i=0;i<20;i++)
-      uart_send_byte(str[i++]);
+      uart_send_byte(str[i]);
     _delay_ms(1000);
      
 }
