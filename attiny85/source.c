@@ -1,5 +1,5 @@
 /* Sketch emulates full duplex transmission of original protocol */
-/* Courtesy of https://electro.club/forum/zamena_yacheek_akb_na_Xiaomi_Mijia_Scooter */
+/* Courtesy of https://electro.club/forum/podklyuchenie_alternativnogo_akkumulyatora_k_syaokatu&page=23*/
 /* External quartz crystal is a must! See BOM */   
 
 /* ------------------- Pinout -------------------- */ 
