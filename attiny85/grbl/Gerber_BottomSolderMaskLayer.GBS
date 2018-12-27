@@ -1,0 +1,27 @@
+G04 ---------------------------- Layer name :BOTTOM SOLDER LAYER*
+G04 EasyEDA v5.8.22, Thu, 27 Dec 2018 09:17:19 GMT*
+G04 5b8e4972239041578b0c1e23d4052a26*
+G04 Gerber Generator version 0.2*
+G04 Scale: 100 percent, Rotated: No, Reflected: No *
+G04 Dimensions in millimeters *
+G04 leading zeros omitted , absolute positions ,3 integer and 3 decimal *
+%FSLAX33Y33*%
+%MOMM*%
+G90*
+G71D02*
+
+%ADD24R,2.603195X1.503197*%
+%ADD30R,3.203194X1.303198*%
+
+%LPD*%
+G54D24*
+G01X22249Y6999D03*
+G01X22246Y5000D03*
+G01X22249Y2998D03*
+G54D30*
+G01X1997Y8003D03*
+G01X1997Y6002D03*
+G01X1997Y4003D03*
+G01X1997Y2001D03*
+M00*
+M02*
