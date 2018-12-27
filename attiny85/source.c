@@ -50,7 +50,7 @@ uint16_t NormalizeBridge(uint16_t voltage)
   /*    -[10MOm]-|-[750kOm]-
    * 5v calibrated is 74 after division.
    * So, to get approx voltage, divide by 15    */
-  /* Drop 2 least significant bits */
+  /* Drop 4 least significant bits */
   uint16_t dropped=voltage&0x3F0;
   return (uint16_t)(((float)dropped/15.0)*100.0)-VbattOffset; 
 }
@@ -59,7 +59,6 @@ void setup()
 {
   pinMode(A1,INPUT);
   Serial.begin(115200);
-  uint16_t Sample=NormalizeBridge(analogRead(A1));
   for(uint8_t i=0;i<ADC_SAMPLES;i++)
   	ADCBuffer[i]=4100;
 }
@@ -85,7 +84,7 @@ void UpdateStats()
   /* -------------------------------- */
   
   /* Overvoltage protection, ! EXPERIMENTAL ! */
-  if(Sample>4150) cmd30[7]=0x02; /* Bit 9 supposed to be overvoltage feedback */
+  if(Sample>REGENERATIVE_CUTOFF) cmd30[7]=0x02; /* Bit 9 supposed to be overvoltage feedback */
   else cmd30[7]=0x00;
   /* ---------- */
   
