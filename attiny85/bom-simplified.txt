@@ -1,0 +1,13 @@
+BOM [M365 BMS EMULATOR V1.1]:
+1x B04B-PASK-1 jst header
+1x PAP-03V-S jst header
+1x PAP-04V-S jst header
+7x SPHD-002 copper inserts
+1X PCB (see grbl folder)
+1x 0402 10Mom 1% resistor
+1x 0402 75Kom 1% resistor
+1x 0402 10Kom 1% resistor
+1x 0603 22uF  5% ceramic capacitor
+1x CSTCE 16MHZ ceramic resonator 
+1x Attiny85-20SU wsop8 mcu
+1x LP2992AIM5 sot23-5 3.3v 250mA low noise regulator 
