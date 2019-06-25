@@ -5,7 +5,7 @@ BOM [M365 BMS EMULATOR V1.1]:
 7x SPHD-002 copper inserts
 1X PCB (see grbl folder)
 1x 0402 10Mom 1% resistor
-1x 0402 75Kom 1% resistor
+1x 0402 750Kom 1% resistor
 1x 0402 10Kom 1% resistor
 1x 0603 22uF  5% ceramic capacitor
 1x CSTCE 16MHZ ceramic resonator 
